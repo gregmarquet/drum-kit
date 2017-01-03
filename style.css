@@ -10,6 +10,13 @@ html {
   background-size: cover;
 }
 
+.title {
+  font-family: Grumpy;
+  font-size: 40px;
+  color: white;
+  margin: 40px 0 0 80px;
+}
+
 .keys {
   margin-top: 100px;
   min-height: 250px;
@@ -64,6 +71,10 @@ kbd {
   .keys {
     width: 90%;
     margin: 30px auto;
+  }
+
+  .title {
+    margin: 10px;
   }
 }
 
