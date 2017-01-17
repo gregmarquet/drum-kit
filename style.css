@@ -78,3 +78,29 @@ kbd {
   }
 }
 
+@media (max-width: 320px) {
+  .key {
+    margin:1rem;
+  font-size: 0.5rem;
+  padding:0.7rem .5rem;
+  width: 65px;
+  height: 65px;
+  /*width:25%;*/
+  }
+
+  .letter {
+    display: none;
+  }
+
+  .keys {
+  margin-top: 90px;
+  min-height: 200px;
+  width: 100%;
+  
+}
+
+  .title {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+}

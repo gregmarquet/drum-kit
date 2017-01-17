@@ -10,8 +10,8 @@ function playSound(e) {
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
   if (!audio) return;
 
-  key.classList.add('playing');
-  audio.currentTime = 0;
+  key.classList.add('playing'); //adds the style, using the class playing
+  audio.currentTime = 0;  //allows to play the audio even if it was already playing
   audio.play();
 }
 
