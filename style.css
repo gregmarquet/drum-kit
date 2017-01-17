@@ -70,7 +70,28 @@ kbd {
 @media (max-width: 600px) {
   .keys {
     width: 90%;
-    margin: 30px auto;
+    margin: 90px auto;
+  }
+
+  .title {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 456px) {
+  .keys {
+    width: 100%;
+    margin: 90px auto;
+  }
+
+  .key {
+    width: 85px;
+    height: 85px;
+    font-size: 0.8rem;
+    padding:0.7rem .5rem;
+  }
+  .letter {
+    font-size: 2em;
   }
 
   .title {
@@ -81,11 +102,10 @@ kbd {
 @media (max-width: 320px) {
   .key {
     margin:1rem;
-  font-size: 0.5rem;
-  padding:0.7rem .5rem;
-  width: 65px;
-  height: 65px;
-  /*width:25%;*/
+    font-size: 0.5rem;
+    padding:0.7rem .5rem;
+    width: 65px;
+    height: 65px;
   }
 
   .letter {
